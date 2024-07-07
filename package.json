@@ -1,0 +1,41 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.0.1",
+  "description": "3rd Hexlet Project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felarn/frontend-project-11.git"
+  },
+  "author": "Felarn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felarn/frontend-project-11/issues"
+  },
+  "homepage": "https://github.com/Felarn/frontend-project-11#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@html-eslint/eslint-plugin": "^0.25.0",
+    "@html-eslint/parser": "^0.25.0",
+    "@webpack-cli/generators": "^3.0.7",
+    "babel-loader": "^9.1.3",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^2.8.8",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
